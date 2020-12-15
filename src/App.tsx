@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import ShowcaseLayout from './0-showcase';
+import {SnipDemo} from './SnipDemo';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </a>
       </header>
     </div>
+    <SnipDemo/>
     <ShowcaseLayout
     className="Layout"
     cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }}
